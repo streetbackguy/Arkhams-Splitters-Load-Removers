@@ -124,7 +124,7 @@ init
     {
         vars.Watchers = new MemoryWatcherList
         {
-            new MemoryWatcher<byte>(new DeepPointer(0x6FD837D)) { Name = "Cutscene" },
+            new MemoryWatcher<byte>(new DeepPointer(0x6FD9961)) { Name = "Cutscene" },
             new MemoryWatcher<int>(new DeepPointer(0x6FDC6A0)) { Name = "FPS" },
             new MemoryWatcher<byte>(new DeepPointer(0x6FD8374)) { Name = "OnMainMenu" }
         };
